@@ -1,1 +1,7 @@
 1. getaddrinfo
+2. AF_INET, AF_INET6, AF_UNSPEC
+3. AI_PASSIVE: 被动的，用于bind，通常用于server socket
+4. inet_aton:  一个字符串IP地址转换为一个32位的网络序列IP地址
+5. getsockopt:
+6. getservbyname:
+7. getservbyport:
