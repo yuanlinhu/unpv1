@@ -5,3 +5,5 @@
 5. getsockopt:
 6. getservbyname:
 7. getservbyport:
+8. htons:
+9. inet_pton:
