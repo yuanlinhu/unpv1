@@ -6,4 +6,7 @@
 6. getservbyname:
 7. getservbyport:
 8. htons:
-9. inet_pton:
+9. inet_ntop/inet_pton:
+10. getpeername: 
+11. getsockname:
+12. struct sockaddr和struct sockaddr_in: struct sockaddr是通用的套接字地址，而struct sockaddr_in则是internet环境下套接字的地址形式，二者长度一样，都是16个字节。二者是并列结构，指向sockaddr_in结构的指针也可以指向sockaddr。一般情况下，需要把sockaddr_in结构强制转换成sockaddr结构再传入系统调用函数中。
